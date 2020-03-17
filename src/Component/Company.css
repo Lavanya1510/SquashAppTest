@@ -1,0 +1,42 @@
+.texttoleft{
+    padding-left: 10px;
+    font-family: Lato;
+}
+.terms{
+    color: #FF6600;
+    font-family: Lato;
+}
+
+.nameinputselect{
+    width: 100%;
+    border: 1px solid #CECECE;
+    height: 35px;
+    border-radius: 3px;
+    color: #0A0909;
+    font-weight: 600;
+    outline: none;
+    font-family: Lato;
+  
+  }
+  .nameinputselect:focus{
+    /* ~ .labelinput {
+      color: #ED5901;
+      top:0
+    } */
+    bottom:0;
+    width: 100%;
+    border: 1px solid #ED5901;
+    height: 35px;
+    border-radius: 3px;
+    color: #0A0909;
+    font-weight: 600;
+    outline: none;
+    font-family: Lato;
+  }
+  
+  .nameinputselect:focus + label { color:#ED5901; }
+
+  .topaddingcomp{
+        position: relative;
+        margin-top: 10px;
+  }

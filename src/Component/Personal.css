@@ -1,0 +1,189 @@
+.labelinputgen{
+    font-size: 15px;
+    color: #ED5901;
+    font-family: Lato;
+}
+.gender1{
+    height: 35px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 80px;
+    background-color: rgba(237, 89, 1, 0.1);
+    color: #ED5901;
+  }
+  
+  .gender2{
+    height: 35px;
+    border: 1px solid #CECECE;
+    margin-right: 10px;
+    border-radius: 3px;
+    width: 80px;
+    background-color: white;
+    color: #0A0909;
+    font-weight: 600;
+  }
+
+  #nameinput{
+    width: 100%;
+    border: 1px solid #CECECE;
+    height: 35px;
+    border-radius: 3px;
+    color: #0A0909;
+    font-weight: 600;
+    outline: none;
+    font-family: Lato;
+    /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent url('/arrow.png') no-repeat right center;
+    left: -5px!important; */
+  }
+  #nameinput:focus{
+    /* ~ .labelinput {
+      color: #ED5901;
+      top:0
+    } */
+    bottom:0;
+    width: 100%;
+    border: 1px solid #ED5901;
+    height: 35px;
+    /* margin-top: 5px; */
+    border-radius: 3px;
+    color: #0A0909;
+    font-weight: 600;
+    outline: none;
+    font-family: Lato;
+    /* background-image:url('/logo192.png') ; */
+    /* -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none; */
+
+  }
+  
+  #nameinput:focus + label { color:#ED5901; }
+
+  .topadddinggen{
+    padding:30px 0px;
+  }
+
+  .toppadddingcoun{
+    margin-top:40px;
+    position: relative;
+    padding-top: 20px;
+  }
+  .account{
+      font-size: 15px;
+      font-family: Lato;
+      color:rgba(10, 9, 9, 0.6)
+  }
+  .logg{
+    font-size: 15px;
+    font-family: Lato;
+    color: #FF6600;
+    cursor: pointer;
+  }
+  #phoneinput1{
+    /* background-image:url('/logo192.png') ; */
+    position: left;
+    padding-left: 30px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    
+  }
+  .topadddingother{
+    padding-bottom:30px;
+  }
+ 
+  /* .react-tel-input .form-control{
+  width: 100%;
+  color: #0A0909;
+  font-family: Lato;
+  border: 1px solid #CECECE;
+
+}
+.react-tel-input .form-control:focus{
+  width: 100%;
+  color: #0A0909;
+  font-family: Lato;
+  border: 1px solid #ED5901;
+}
+
+.react-tel-input{
+  border: 1px solid #CECECE;
+  width: 100%;
+  border-radius: 3px;
+  border:none
+}
+.react-tel-input:hover{
+  border: 1px solid #ED5901;
+  width: 100%;
+  border-radius: 3px;
+  border:none
+} */
+
+
+.form-control:focus{
+    box-shadow: none;
+    width: 100%;
+    border: 1px solid #ED5901;
+  }
+  .form-control{
+    box-shadow: none;
+    width: 100%;
+    border: 1px solid #CECECE;
+
+  }
+  .react-tel-input .form-control{
+    width: 100%;
+    color: #0A0909;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .react-tel-input .form-control:focus{
+    width: 100%;
+    color: #0A0909;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  #phoneinput{
+    margin-top: 5px;
+    border:1px solid red;
+    width: 100%;
+    color: #0A0909;
+    font-weight: 600;
+  }
+  
+  .form-control:focus + label{
+    color:#ED5901;
+  }
+  #phoneinput:focus + label{
+    color:#ED5901;
+  }
+
+  .react-tel-input .flag-dropdown:focus{
+    border: 1px solid #ED5901;
+  }
+
+  /* .react-tel-input .react-tel-input:focus + .labelinputphne{
+    border: 1px solid #ED5901;
+  } */
+
+  .labelinputphne{
+    font-size: 15px;
+    color: rgba(10, 9, 9, 0.6);
+    position: absolute;
+    top:-9px;
+    left:0;
+    font-family: Lato;
+  }
+
+  /* .form-control:focus.react-tel-input .flag-dropdown
+  {
+    border: 1px solid #ED5901;
+  } */
+  /* #nameinput:focus + label { color:#ED5901; } */

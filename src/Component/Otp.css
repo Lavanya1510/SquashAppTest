@@ -1,0 +1,49 @@
+.otppara{
+    font-size: 15px;
+    width: 442px;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    font-family: Lato;
+    color: rgba(10, 9, 9, 0.8);
+  
+  }
+  .paralign{
+    width: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .otpcode{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .otpleft{
+    float: left;
+    color: rgba(10, 9, 9, 0.4);
+    font-size: 15px;
+  }
+  .otpright{
+    float: right;
+    color: rgba(10, 9, 9, 0.4);
+    font-size: 15px;
+  }
+  .line{
+    border:1px solid #eee
+  }
+  .textbottom{
+    text-align: center;
+    width: 100%;
+  }
+  .textinside{
+    color: #FF6600;
+  }
+
+  .topadddingotp{
+    padding:20px 0px;
+    position: relative;
+  }
