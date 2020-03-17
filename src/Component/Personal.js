@@ -133,7 +133,7 @@ export class Personal extends Component {
         )
         return (
             <div>
-                <div >
+                <div>
                                 <Row>
                                         <div className='detailtitle'>
                                         Add your personal details

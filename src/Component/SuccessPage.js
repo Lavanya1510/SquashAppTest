@@ -12,11 +12,11 @@ export class SuccessPage extends Component {
     }
     componentWillMount=async()=>{
         let personal=JSON.parse(localStorage.getItem('personal'))
-        if(personal !=null && personal != undefined){
+        if(personal !== null && personal !== undefined){
             await this.setState({personal})
         }
         let company=JSON.parse(localStorage.getItem('company'))
-        if(company !=null && company != undefined){
+        if(company !== null && company !== undefined){
             await this.setState({company})
         }
     }
